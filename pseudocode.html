@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.box {
+			margin: 10px;
+			border-style: solid;
+			border-color: red;
+			padding: 8px;
+			text-decoration: none;
+		}
+		a#a1:hover{
+			background-color: green;
+			color : white;
+			
+		}a#a2:active{
+			background-color: cyan;
+			color : white;
+			
+		}a#a3:visited{
+			background-color: peachpuff;
+			color : blue;
+			
+		}a#a4:link{
+			background-color: pink;
+			color : white;
+			
+		}
+		a.differ:hover{
+			font-size: 25px;
+			font-family: cursive;
+
+		}
+		p {
+  			display: none;
+  			background-color: pink;
+  			padding: 20px;
+		}
+		div:hover p{
+			display : block;
+		}
+
+
+	</style>
+	<title></title>
+</head>
+<body>
+	<h1>anchor pseudo classes</h1>
+	<a id = "a1" class = "box" href = "#">hover</a>
+	<a id = "a2" class = "box" href = "#">active</a>
+	<a id = "a3" class = "box" href = "#">visited</a>
+	<a id = "a4" class = "box" href = "#">link</a>
+	<br>
+	<h1>pseudo classes-html classes</h1>
+	<a href = "#" class = "differ">i differ</a><br>
+	<a href = "#">i am constant</a>
+	<br>
+	<h1>using div</br>
+	<div> i am written to execute the css styling using div tag
+		<p>Hover here to see me</p></div>
+	
+
+
+</body>
+</html>
